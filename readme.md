@@ -39,4 +39,6 @@ python3 meetautomation.py
 ```
 > Python3 is preffered over other versions of python.
 
+> For the current meet bot version chromium based browers (Google,Brave) are preffered over other browsers.
+
 Do raise an issue for feature request or bug fixes :)
