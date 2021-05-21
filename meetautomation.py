@@ -152,7 +152,7 @@ def timetable():
 
 #Friday-----------------------------------------------------------
 
-	if(datetime.today().weekday()==6):
+	if(datetime.today().weekday()==4):
 		classtime(dbms,os,co,coi)
 #Saturday and Sunday----------------------------------------------
 	else:
