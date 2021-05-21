@@ -11,6 +11,7 @@ def noclasstime():
 	now=datetime.now()
 	if now.strftime("%H%M%S")<"085500" or now.strftime("%H%M%S")>"120000":
 		print("There are no class at this time. Please start the bot after 08:55 AM")
+		time.sleep(2)
 		quit()
 
 
@@ -152,7 +153,7 @@ def timetable():
 
 #Friday-----------------------------------------------------------
 
-	if(datetime.today().weekday()==6):
+	if(datetime.today().weekday()==4):
 		classtime(dbms,os,co,coi)
 #Saturday and Sunday----------------------------------------------
 	else:
