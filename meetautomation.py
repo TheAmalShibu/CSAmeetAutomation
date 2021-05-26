@@ -32,7 +32,7 @@ def idletime():
 def lineseprator():
 	print("------------------------------------------------------------------")
 
-#Print Line to seprate code-------------------------------------------------------------------------
+# End Class-------------------------------------------------------------------------
 def endclass():
 	print("Classes have ended for today.Have a good day")
 	quit()
@@ -115,6 +115,7 @@ def classtime(hr1,hr2,hr3,hr4):
 				print("Break for 10 min - Program idle for 10 minutes")
 				print("Do not turn off the PC , if turning off, restart the program before next class")
 				time.sleep(500)
+				lineseprator()
 				#hour3
 			if "110000"<=now.strftime("%H%M%S")<"110500":
 				#print(datetime.today().weekday()+" - Hour 3")
