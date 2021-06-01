@@ -114,16 +114,20 @@ def classtime(hr1,hr2,hr3,hr4):
 			if now.strftime("%H%M%S")=="095000" or now.strftime("%H%M%S")=="105000" or now.strftime("%H%M%S")=="115000" or now.strftime("%H%M%S")=="125000":
 				print("Break for 10 min - Program idle for 10 minutes")
 				print("Do not turn off the PC , if turning off, restart the program before next class")
-				time.sleep(500)
+				time.sleep(240)
 				lineseprator()
 				#hour3
 			if "110000"<=now.strftime("%H%M%S")<"110500":
 				#print(datetime.today().weekday()+" - Hour 3")
 				hr3()
 				#hour4
+			if "115500"<=now.strftime("%H%M%S")<"120000" and datetime.today().weekday()==4:
+				hr4()
+				endclass()
 			if "120000"<=now.strftime("%H%M%S")<"120500":
 				#print(datetime.today().weekday()+" - Hour 4")
-				hr4()
+				if(datetime.today().weekday()!=4):		
+					hr4()
 				endclass()
 
 
