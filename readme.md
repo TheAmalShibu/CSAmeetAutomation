@@ -19,11 +19,11 @@ Here my required AuthUser count is 1 as my JECC mail id is logged in as the seco
 
 ## Windows 
 
-Download the [meetautomation.exe](https://github.com/TheAmalShibu/CSAmeetAutomation/releases/download/v1.0/meetautomation.exe) from the releases and run/execute the file.
+Download the [meetautomation.exe](https://github.com/TheAmalShibu/CSAmeetAutomation/releases/download/v1.01/meetautomation.exe) from the releases and run/execute the file.
 
 ## Linux or Compiling Python Code
 
-Download the [CsaMeetBot.zip](https://github.com/TheAmalShibu/CSAmeetAutomation/releases/download/v1.0/CsaMeetBot.zip) file from the releases and extract it's contents.
+Download the [CsaMeetBot.zip](https://github.com/TheAmalShibu/CSAmeetAutomation/releases/download/v1.01/CsaMeetBot.zip) file from the releases and extract it's contents.
 The script depends or certain packages. You can install them by
 ```
 pip3 install pyautogui
